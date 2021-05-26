@@ -15,6 +15,6 @@
     "dependencies": {
         "config": "^3.0.1",
         "mongoose": "^5.12.9",
-        "unnameable-core": "^0.0.7"
+        "unnameable-core": "^0.0.8"
     }
 }
