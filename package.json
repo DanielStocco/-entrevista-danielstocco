@@ -1,0 +1,20 @@
+{
+    "name": "entrevista-danielstocco",
+    "version": "1.0.0",
+    "description": "entrevista",
+    "main": "app",
+    "scripts": {
+        "start": "node app.js",
+        "test": "mocha test",
+        "lint": "eslint .",
+        "check4updates": "npm-check -u",
+        "report": "node_modules/es6-plato/bin/plato -r -d report ./*.js ./controllers ./drivers ./libs"
+    },
+    "author": "Daniel Stocco <daniel.stocco@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "config": "^3.0.1",
+        "mongoose": "^5.12.9",
+        "unnameable-core": "^0.0.7"
+    }
+}
